@@ -16,7 +16,7 @@ pageEncoding="UTF-8"%>
 </head>
 <body>
 
-    <div class="container">
+    <div class="container mt-4">
       <h2>Card Header and Footer</h2>
       <div class="card">
         <div class="card-header">Header</div>

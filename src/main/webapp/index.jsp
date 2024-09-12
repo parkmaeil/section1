@@ -7,8 +7,13 @@ pageEncoding="UTF-8"%>
    <body>
       <h1>Hello from JSP!</h1>
       <%
-        int sum=55;
+          com.example.util.Hap h=new com.example.util.Hap();
+          int v=h.sum();
       %>
-      <%=sum%>
+      <table border="1">
+      <tr>
+      <td><%=v%></td>
+      </tr>
+      </table>
    </body>
 </html>
